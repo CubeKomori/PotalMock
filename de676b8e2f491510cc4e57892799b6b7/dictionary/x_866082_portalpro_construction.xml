@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="construction" max_length="40" name="x_866082_portalpro_construction" type="collection">
+        <element label="AMOUNT" max_length="40" name="amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="CONSTRUCTION_NAME" max_length="40" name="construction_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CONSTRUCTION_NO" max_length="40" name="construction_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CONST_FINISH_DATE" max_length="40" name="const_finish_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="CONST_FINISH_PERSON" max_length="40" name="const_finish_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CONST_IRAI_DATE" max_length="40" name="const_irai_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="CONST_IRAI_PERSON" max_length="40" name="const_irai_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DESIGN_FINISH_DATE" max_length="40" name="design_finish_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="DESIGN_FINISH_PERSON" max_length="40" name="design_finish_person" type="string"/>
+        <element label="NO" max_length="40" name="no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="PLANCOUNT" max_length="40" name="plancount" type="integer"/>
+        <element label="SCALE" max_length="40" name="scale" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="SCHEME" max_length="40" name="scheme" type="string"/>
+        <element label="STATUS" max_length="40" name="status" type="integer"/>
+        <element label="YOSAN" max_length="40" name="yosan" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="news" max_length="40" name="x_866082_portalpro_news" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TEXT" max_length="40" name="text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TITLE" max_length="40" name="title" type="string"/>
+        <element label="TYPE" max_length="40" name="type" type="integer"/>
+    </element>
+</database>
