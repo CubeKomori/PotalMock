@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>08bc1c144a611110c7f2cc25140a10ff</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>test</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 02:12:14</sys_created_on>
+        <sys_id>c8bc1c142b611110fb54d929df63f8f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_page_registry_c8bc1c142b611110fb54d929df63f8f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 02:12:14</sys_updated_on>
+        <title>test</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</application>
+        <file_path/>
+        <instance_id>57752983db890150f37acac50596195c</instance_id>
+        <instance_name>dev122064</instance_name>
+        <name>sys_ux_page_registry_c8bc1c142b611110fb54d929df63f8f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>08bc1c144a611110c7f2cc25140a10ff</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>test</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-22 02:12:14</sys_created_on><sys_id>c8bc1c142b611110fb54d929df63f8f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package><sys_policy/><sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope><sys_update_name>sys_ux_page_registry_c8bc1c142b611110fb54d929df63f8f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-22 02:12:14</sys_updated_on><title>test</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1736355365</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>66afa03697111110870cf3ffe153af0a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-08-17 11:44:14</sys_created_on>
+        <sys_id>dc725d5897251110870cf3ffe153affb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>182ab9e4ab00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>9c725d58d12511100a5ef3b59c08a2fb</update_guid>
+        <update_guid_history>9c725d58d12511100a5ef3b59c08a2fb:1736355365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 06:07:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>d1c176a2dc604b60a908e7eea79e7840</sys_id>
+        <sys_metadata>c8bc1c142b611110fb54d929df63f8f8</sys_metadata>
+        <sys_name>test</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_scope_delete display_value="">04598c2f1a1e4bda86885662b1d51d24</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_c8bc1c142b611110fb54d929df63f8f8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_c8bc1c142b611110fb54d929df63f8f8">dc725d5897251110870cf3ffe153affb</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

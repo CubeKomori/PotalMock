@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="DELETE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="">c8bc1c142b611110fb54d929df63f8f8</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 02:12:15</sys_created_on>
+        <sys_id>c0bc1c1484611110b71ae0e71fc4fcfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_c0bc1c1484611110b71ae0e71fc4fcfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-22 02:12:15</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</application>
+        <file_path/>
+        <instance_id>57752983db890150f37acac50596195c</instance_id>
+        <instance_name>dev122064</instance_name>
+        <name>sys_ux_registry_m2m_category_c0bc1c1484611110b71ae0e71fc4fcfb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category"><sys_ux_registry_m2m_category action="INSERT_OR_UPDATE"><experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category><page_registry display_value="">c8bc1c142b611110fb54d929df63f8f8</page_registry><sys_class_name>sys_ux_registry_m2m_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-22 02:12:15</sys_created_on><sys_id>c0bc1c1484611110b71ae0e71fc4fcfb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package><sys_policy/><sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope><sys_update_name>sys_ux_registry_m2m_category_c0bc1c1484611110b71ae0e71fc4fcfb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-22 02:12:15</sys_updated_on></sys_ux_registry_m2m_category></record_update>]]></payload>
+        <payload_hash>91159012</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>66afa03697111110870cf3ffe153af0a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-08-17 11:44:14</sys_created_on>
+        <sys_id>9c72dd5897251110870cf3ffe153afa8</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>182ab9e4ab00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application Category M2M</type>
+        <update_guid>5c72dd58c02511100091b7a2c07895a8</update_guid>
+        <update_guid_history>5c72dd58c02511100091b7a2c07895a8:91159012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 06:07:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_registry_m2m_category">sys_ux_registry_m2m_category</sys_db_object>
+        <sys_id>08473069727248b0817a4b03e28e0304</sys_id>
+        <sys_metadata>c0bc1c1484611110b71ae0e71fc4fcfb</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_scope_delete display_value="">04598c2f1a1e4bda86885662b1d51d24</sys_scope_delete>
+        <sys_update_name>sys_ux_registry_m2m_category_c0bc1c1484611110b71ae0e71fc4fcfb</sys_update_name>
+        <sys_update_version display_value="sys_ux_registry_m2m_category_c0bc1c1484611110b71ae0e71fc4fcfb">9c72dd5897251110870cf3ffe153afa8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
