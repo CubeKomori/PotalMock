@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="test">00bc1c1405611110178c64d597143bf8</dashboard>
+        <experience/>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 02:12:14</sys_created_on>
+        <sys_id>48bc1c14d16111102724afcc380c0dfc</sys_id>
+        <sys_name/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>par_dashboard_visibility_48bc1c14d16111102724afcc380c0dfc</sys_update_name>
+    </par_dashboard_visibility>
+</record_update>

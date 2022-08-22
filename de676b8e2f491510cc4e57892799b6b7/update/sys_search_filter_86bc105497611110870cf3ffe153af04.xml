@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="construction">f1bcdc1497611110870cf3ffe153afc1</ais_search_source>
+        <label>construction</label>
+        <name>construction</name>
+        <order>100</order>
+        <search_context_config display_value="test AI Search Configuration">84bc1c14496111108e54bc7ed717e9fc</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 02:12:21</sys_created_on>
+        <sys_id>86bc105497611110870cf3ffe153af04</sys_id>
+        <sys_name>construction</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_search_filter_86bc105497611110870cf3ffe153af04</sys_update_name>
+    </sys_search_filter>
+</record_update>

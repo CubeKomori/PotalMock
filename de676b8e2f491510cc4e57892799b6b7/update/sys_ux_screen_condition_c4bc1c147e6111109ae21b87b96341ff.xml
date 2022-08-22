@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions_params_mapping/>
+        <is_result_memoizable>false</is_result_memoizable>
+        <screen display_value="Record Information">88bc1c14c1611110503bed343ec9f0fd</screen>
+        <screen_condition/>
+        <script><![CDATA[(function showRecordInformationTab(params) {
+    var ribbonUtil = new x_866082_portalpro.workspaceStarterExpUtils();
+    var experienceId = 'c8bc1c142b611110fb54d929df63f8f8';
+
+    // call the form header utility class with the current table, sys id, and experience id
+    var showSidePanelPage = ribbonUtil.shouldShowSidePanel(params.table, params.sysId, experienceId);
+    return showSidePanelPage;
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 02:12:14</sys_created_on>
+        <sys_id>c4bc1c147e6111109ae21b87b96341ff</sys_id>
+        <sys_name/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_c4bc1c147e6111109ae21b87b96341ff</sys_update_name>
+    </sys_ux_screen_condition>
+</record_update>

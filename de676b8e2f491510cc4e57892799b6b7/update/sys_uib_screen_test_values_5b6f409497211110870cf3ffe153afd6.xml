@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="Home default">2697f3065fc91510a32d960e6e03d1e7</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 01:14:17</sys_created_on>
+        <sys_id>5b6f409497211110870cf3ffe153afd6</sys_id>
+        <sys_name/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_5b6f409497211110870cf3ffe153afd6</sys_update_name>
+    </sys_uib_screen_test_values>
+</record_update>

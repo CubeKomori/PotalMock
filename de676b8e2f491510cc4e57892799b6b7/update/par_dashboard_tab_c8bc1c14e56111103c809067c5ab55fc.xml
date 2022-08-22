@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="test">00bc1c1405611110178c64d597143bf8</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 02:12:15</sys_created_on>
+        <sys_id>c8bc1c14e56111103c809067c5ab55fc</sys_id>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>par_dashboard_tab_c8bc1c14e56111103c809067c5ab55fc</sys_update_name>
+    </par_dashboard_tab>
+</record_update>
