@@ -4,7 +4,16 @@
         <description>Tabs Configuration</description>
         <name>chrome_tab</name>
         <page display_value="portalMock">6e97f3064dc91510e0a45d9de01e5de9</page>
-        <required_translations>[{"message":"New Incident","comment":""},{"message":"New Interaction","comment":""}]</required_translations>
+        <required_translations>[ {
+  "message" : "new incident",
+  "comment" : ""
+}, {
+  "message" : "new interaction",
+  "comment" : ""
+}, {
+  "message" : "受付",
+  "comment" : ""
+} ]</required_translations>
         <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
@@ -13,14 +22,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>ee97f30608c915103105b883e019d5e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_tab</sys_name>
         <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
         <sys_update_name>sys_ux_page_property_ee97f30608c915103105b883e019d5e7</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-03 08:06:42</sys_updated_on>
         <type>json</type>
         <unique_name>x_866082_portalpro.6e97f3064dc91510e0a45d9de01e5de9.root.chrome_tab</unique_name>
         <value>{&#13;
@@ -31,7 +37,7 @@
       {&#13;
          "label":{&#13;
             "translatable":true,&#13;
-            "message":"New Interaction"&#13;
+            "message":"new interaction"&#13;
          },&#13;
          "routeInfo":{&#13;
             "route":"record",&#13;
@@ -51,7 +57,27 @@
       {&#13;
          "label":{&#13;
             "translatable":true,&#13;
-            "message":"New Incident"&#13;
+            "message":"受付"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{          &#13;
+"table":"x_866082_portalpro_construction",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         },&#13;
+         "condition":{&#13;
+            "tableDescription":{           &#13;
+"table":"x_866082_portalpro_construction",&#13;
+               "canCreate":true&#13;
+            }&#13;
+         }&#13;
+      },&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"new incident"&#13;
          },&#13;
          "routeInfo":{&#13;
             "route":"record",&#13;

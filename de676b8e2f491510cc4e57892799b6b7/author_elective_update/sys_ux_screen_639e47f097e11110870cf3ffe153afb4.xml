@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="portalMock Config">ae97f30603c9151001fdb2563a921ee9</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "clhhhheeffxiiiiaahhuhhddffhhrlilbccyvg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_866082_portalpro.NAV_ITEM_SELECTED_RELAY_e17e03f097e11110870cf3ffe153afff",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_866082_portalpro.NAV_ITEM_SELECTED_RELAY_e17e03f097e11110870cf3ffe153afff",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "clhhhheeffxiihhaahhuggddffhhrwahhqekocc",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="sekeiList default">eb9e47f097e11110870cf3ffe153af9b</macroponent>
+        <macroponent_config>{
+  "tinyId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>sekeiList default - 3.0.0 preview.</name>
+        <order>9999</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen display_value="sekeiList default">ed7e43f097e11110870cf3ffe153af0c</rollback_screen>
+        <screen_condition/>
+        <screen_type display_value="sekeiList">697e03b097e11110870cf3ffe153afdb</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:26:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>639e47f097e11110870cf3ffe153afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sekeiList default - 3.0.0 preview.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_screen_639e47f097e11110870cf3ffe153afb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 04:26:35</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=639e47f097e11110870cf3ffe153afb4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</application>
+        <file_path/>
+        <instance_id>57752983db890150f37acac50596195c</instance_id>
+        <instance_name>dev122064</instance_name>
+        <name>sys_ux_screen_639e47f097e11110870cf3ffe153afb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="portalMock Config">ae97f30603c9151001fdb2563a921ee9</app_config><description/><event_mappings>[ {
+  "eventMappingId" : "clhhhheeffxiiiiaahhuhhddffhhrlilbccyvg",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_866082_portalpro.NAV_ITEM_SELECTED_RELAY_e17e03f097e11110870cf3ffe153afff",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_866082_portalpro.NAV_ITEM_SELECTED_RELAY_e17e03f097e11110870cf3ffe153afff",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "clhhhheeffxiihhaahhuggddffhhrwahhqekocc",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings><macroponent display_value="sekeiList default">eb9e47f097e11110870cf3ffe153af9b</macroponent><macroponent_config>{
+  "tinyId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>sekeiList default - 3.0.0 preview.</name><order>9999</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen display_value="sekeiList default">ed7e43f097e11110870cf3ffe153af0c</rollback_screen><screen_condition/><screen_type display_value="sekeiList">697e03b097e11110870cf3ffe153afdb</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-24 04:26:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>639e47f097e11110870cf3ffe153afb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sekeiList default - 3.0.0 preview.</sys_name><sys_overrides/><sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package><sys_policy/><sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope><sys_update_name>sys_ux_screen_639e47f097e11110870cf3ffe153afb4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-24 04:26:35</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=639e47f097e11110870cf3ffe153afb4"/></record_update>]]></payload>
+        <payload_hash>-106870205</payload_hash>
+        <record_name>sekeiList default - 3.0.0 preview.</record_name>
+        <reverted_from/>
+        <source>424c885097211110870cf3ffe153af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:26:35</sys_created_on>
+        <sys_id>279e47f097e11110870cf3ffe153afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ce1a232a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 04:26:35</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>6f9e47f070e11110bec57af27f74efb5</update_guid>
+        <update_guid_history>6f9e47f070e11110bec57af27f74efb5:-106870205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:27:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>58f44b1deb1d4799a48f441f0e9fe411</sys_id>
+        <sys_metadata>639e47f097e11110870cf3ffe153afb4</sys_metadata>
+        <sys_name>sekeiList default - 3.0.0 preview.</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_scope_delete display_value="">04598c2f1a1e4bda86885662b1d51d24</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_639e47f097e11110870cf3ffe153afb4</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_639e47f097e11110870cf3ffe153afb4">279e47f097e11110870cf3ffe153afb6</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="hasLabels=true" db_object_id="2adb04d097211110870cf3ffe153af1b" label="construction" max_length="40" name="x_866082_portalpro_construction" text_index="true" type="collection">
         <element label="AMOUNT" max_length="40" name="amount" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="CONSTRUCTION_NAME" max_length="40" name="construction_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="CONSTRUCTION_NO" max_length="40" name="construction_no" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="CONST_FINISH_DATE" max_length="40" name="const_finish_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="CONST_FINISH_PERSON" max_length="40" name="const_finish_person" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="CONST_IRAI_DATE" max_length="40" name="const_irai_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="CONST_IRAI_PERSON" max_length="40" name="const_irai_person" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="DESIGN_FINISH_DATE" max_length="40" name="design_finish_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="DESIGN_FINISH_PERSON" max_length="40" name="design_finish_person" type="string"/>
-        <element display="true" label="IMG" max_length="40" name="img" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="工事件名" max_length="40" name="construction_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="工事番号" max_length="40" name="construction_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="工事完了日" max_length="40" name="const_finish_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="工事完了担当者" max_length="40" name="const_finish_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="工事依頼日" max_length="40" name="const_irai_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="工事依頼担当者" max_length="40" name="const_irai_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="設計完了日" max_length="40" name="design_finish_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="設計完了担当者" max_length="40" name="design_finish_person" type="string"/>
+        <element display="true" label="IMG" max_length="40" name="img" type="user_image"/>
         <element label="期限" max_length="40" name="limit_date" type="glide_date"/>
         <element label="NO" max_length="40" name="no" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="PLANCOUNT" max_length="40" name="plancount" type="integer"/>
         <element label="SCALE" max_length="40" name="scale" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="SCHEME" max_length="40" name="scheme" type="string"/>
-        <element choice="1" label="STATUS" max_length="40" name="status" type="integer">
+        <element choice="1" label="状態" max_length="40" name="status" type="integer">
             <choice>
                 <element inactive_on_update="false" label="一時保存" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="工事依頼" sequence="1" value="1"/>

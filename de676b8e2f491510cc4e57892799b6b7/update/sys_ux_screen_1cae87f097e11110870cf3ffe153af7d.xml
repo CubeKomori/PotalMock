@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="portalMock Config">ae97f30603c9151001fdb2563a921ee9</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Interceptor default">d8ae87f097e11110870cf3ffe153af7b</macroponent>
+        <macroponent_config>{
+  "sysId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "pageTitle" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "pageSubTitle" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "table" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "parentTable" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "parentSysId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "referencedFieldName" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "useDomain" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Interceptor default</name>
+        <order>100</order>
+        <parent_macroponent display_value="sekeiList default">eb9e47f097e11110870cf3ffe153af9b</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="sekeiList default Interceptor">14ae87f097e11110870cf3ffe153af71</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:26:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1cae87f097e11110870cf3ffe153af7d</sys_id>
+        <sys_name>Interceptor default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_screen_1cae87f097e11110870cf3ffe153af7d</sys_update_name>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cae87f097e11110870cf3ffe153af7d"/>
+</record_update>

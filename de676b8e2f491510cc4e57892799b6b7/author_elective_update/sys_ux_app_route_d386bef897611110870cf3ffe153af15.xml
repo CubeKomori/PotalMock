@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="portalMock Config">ae97f30603c9151001fdb2563a921ee9</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>sekeiList</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>sekeilist</route_type>
+        <screen_type display_value="sekeiList">13867e7897611110870cf3ffe153afe0</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 02:41:26</sys_created_on>
+        <sys_id>d386bef897611110870cf3ffe153af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sekeiList</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_app_route_d386bef897611110870cf3ffe153af15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 02:41:26</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=d386bef897611110870cf3ffe153af15"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</application>
+        <file_path/>
+        <instance_id>57752983db890150f37acac50596195c</instance_id>
+        <instance_name>dev122064</instance_name>
+        <name>sys_ux_app_route_d386bef897611110870cf3ffe153af15</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="portalMock Config">ae97f30603c9151001fdb2563a921ee9</app_config><description/><extension_point/><fields/><icon/><name>sekeiList</name><optional_parameters/><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>sekeilist</route_type><screen_type display_value="sekeiList">13867e7897611110870cf3ffe153afe0</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-24 02:41:26</sys_created_on><sys_id>d386bef897611110870cf3ffe153af15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sekeiList</sys_name><sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package><sys_policy/><sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope><sys_update_name>sys_ux_app_route_d386bef897611110870cf3ffe153af15</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-24 02:41:26</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=d386bef897611110870cf3ffe153af15"/></record_update>]]></payload>
+        <payload_hash>-435639956</payload_hash>
+        <record_name>sekeiList</record_name>
+        <reverted_from/>
+        <source>424c885097211110870cf3ffe153af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 02:41:26</sys_created_on>
+        <sys_id>d786bef897611110870cf3ffe153af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182cdb9df730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 02:41:26</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>1386bef8e6611110cb9500fb806bdf17</update_guid>
+        <update_guid_history>1386bef8e6611110cb9500fb806bdf17:-435639956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:25:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>08a662d0376841f5863ba4a14cafacd1</sys_id>
+        <sys_metadata>d386bef897611110870cf3ffe153af15</sys_metadata>
+        <sys_name>sekeiList</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_scope_delete display_value="">04598c2f1a1e4bda86885662b1d51d24</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_d386bef897611110870cf3ffe153af15</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_d386bef897611110870cf3ffe153af15">d786bef897611110870cf3ffe153af17</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
