@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_highlighted_value_config">
+    <sys_ux_m2m_highlighted_value_config action="INSERT_OR_UPDATE">
+        <highlighted_value display_value="title">ff59c22097e11110870cf3ffe153af34</highlighted_value>
+        <highlighted_value_config display_value="typeColor">bd390e2097e11110870cf3ffe153af63</highlighted_value_config>
+        <order>0</order>
+        <sys_class_name>sys_ux_m2m_highlighted_value_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 04:45:59</sys_created_on>
+        <sys_id>0e79826097e11110870cf3ffe153afd3</sys_id>
+        <sys_name/>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_m2m_highlighted_value_config_0e79826097e11110870cf3ffe153afd3</sys_update_name>
+    </sys_ux_m2m_highlighted_value_config>
+</record_update>

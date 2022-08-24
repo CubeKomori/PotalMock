@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="sekeiList default">e17e03f097e11110870cf3ffe153afff</macroponent>
+        <name>list_nav/NODE__isHidden</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+	return !api.state.listMenuOpen;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:25:54</sys_created_on>
+        <sys_id>e17e43f097e11110870cf3ffe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list_nav/NODE__isHidden</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_update_name>sys_ux_client_script_e17e43f097e11110870cf3ffe153af02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 04:25:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</application>
+        <file_path/>
+        <instance_id>57752983db890150f37acac50596195c</instance_id>
+        <instance_name>dev122064</instance_name>
+        <name>sys_ux_client_script_e17e43f097e11110870cf3ffe153af02</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="sekeiList default"&gt;e17e03f097e11110870cf3ffe153afff&lt;/macroponent&gt;&lt;name&gt;list_nav/NODE__isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+	return !api.state.listMenuOpen;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-24 04:25:54&lt;/sys_created_on&gt;&lt;sys_id&gt;e17e43f097e11110870cf3ffe153af02&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;list_nav/NODE__isHidden&lt;/sys_name&gt;&lt;sys_package display_value="portalMock" source="x_866082_portalpro"&gt;de676b8e2f491510cc4e57892799b6b7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="portalMock"&gt;de676b8e2f491510cc4e57892799b6b7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e17e43f097e11110870cf3ffe153af02&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-24 04:25:54&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>729216539</payload_hash>
+        <record_name>list_nav/NODE__isHidden</record_name>
+        <reverted_from/>
+        <source>424c885097211110870cf3ffe153af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 04:26:21</sys_created_on>
+        <sys_id>4c9ec3f097e11110870cf3ffe153af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ce19eaae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 04:26:21</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>049ec3f0bae1111017f0e2ed3930a283</update_guid>
+        <update_guid_history>049ec3f0bae1111017f0e2ed3930a283:729216539,7d7e43f01fe111107c701f7e72d7e25c:220671773,b17e03f06ae11110b5dda7cabad411ec:729216539,2d7e43f0cbe111108d314a79610f300a:220671773,e17e43f00ce11110b5c98ee56e2a0505:1472809695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 05:20:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>74660d1a69614388818579a64d4c8090</sys_id>
+        <sys_metadata>e17e43f097e11110870cf3ffe153af02</sys_metadata>
+        <sys_name>list_nav/NODE__isHidden</sys_name>
+        <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
+        <sys_scope_delete display_value="">04598c2f1a1e4bda86885662b1d51d24</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e17e43f097e11110870cf3ffe153af02</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e17e43f097e11110870cf3ffe153af02">4c9ec3f097e11110870cf3ffe153af83</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

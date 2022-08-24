@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="design_finish_person" label="DESIGN_FINISH_PERSON" language="en" table="x_866082_portalpro_construction">
+    <sys_documentation element="design_finish_person" label="設計完了担当者" language="en" table="x_866082_portalpro_construction">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>design_finish_person</element>
             <help/>
             <hint/>
-            <label>DESIGN_FINISH_PERSON</label>
+            <label>設計完了担当者</label>
             <language>en</language>
             <name>x_866082_portalpro_construction</name>
-            <plural>DESIGN_FINISH_PERSONs</plural>
+            <plural>設計完了担当者s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-03 08:23:10</sys_created_on>
-            <sys_id>ec6b3fc62fc91510cc4e57892799b602</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>DESIGN_FINISH_PERSON</sys_name>
+            <sys_name>設計完了担当者</sys_name>
             <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
             <sys_policy/>
             <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
             <sys_update_name>sys_documentation_x_866082_portalpro_construction_design_finish_person_en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-03 08:23:10</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
