@@ -6,7 +6,7 @@
         <element attributes="edge_encryption_enabled=true" label="工事完了日" max_length="40" name="const_finish_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="工事完了担当者" max_length="40" name="const_finish_person" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="工事依頼日" max_length="40" name="const_irai_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="工事依頼担当者" max_length="40" name="const_irai_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="工事依頼担当者" max_length="32" name="const_irai_person" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="設計完了日" max_length="40" name="design_finish_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="設計完了担当者" max_length="40" name="design_finish_person" type="string"/>
         <element display="true" label="IMG" max_length="40" name="img" type="user_image"/>
