@@ -72,9 +72,7 @@
         "value" : null
       },
       "isHero" : false,
-      "extensionPoints" : [ ],
       "isNonDestructive" : false,
-      "items" : [ ],
       "styles" : { }
     }, {
       "elementId" : "container_3",
@@ -231,9 +229,7 @@
             "value" : null
           },
           "isHero" : false,
-          "extensionPoints" : [ ],
           "isNonDestructive" : false,
-          "items" : [ ],
           "styles" : { }
         }, {
           "elementId" : "select_2",
@@ -408,9 +404,7 @@
             "value" : null
           },
           "isHero" : false,
-          "extensionPoints" : [ ],
           "isNonDestructive" : false,
-          "items" : [ ],
           "styles" : { }
         } ],
         "layout" : {
@@ -432,9 +426,7 @@
         "value" : null
       },
       "isHero" : false,
-      "extensionPoints" : [ ],
       "isNonDestructive" : false,
-      "items" : [ ],
       "styles" : {
         "width" : "100%"
       }
@@ -458,9 +450,7 @@
     "value" : null
   },
   "isHero" : false,
-  "extensionPoints" : [ ],
   "isNonDestructive" : false,
-  "items" : [ ],
   "styles" : {
     "width" : "100%"
   }
@@ -533,9 +523,7 @@
         "value" : null
       },
       "isHero" : false,
-      "extensionPoints" : [ ],
       "isNonDestructive" : false,
-      "items" : [ ],
       "styles" : { }
     }, {
       "elementId" : "radio_buttons_1",
@@ -564,10 +552,6 @@
         "layout" : {
           "type" : "JSON_LITERAL",
           "value" : "vertical"
-        },
-        "size" : {
-          "type" : "JSON_LITERAL",
-          "value" : "md"
         },
         "readonly" : {
           "type" : "JSON_LITERAL",
@@ -677,16 +661,35 @@
               "type" : "CLIENT_TRANSFORM_SCRIPT",
               "script" : {
                 "apiVersion" : "1.0.0",
-                "controllerElementId" : null,
                 "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\tviewportElementId: null,\n\t\troute: null,\n\t\tfields: null,\n\t\tparams: null\n\t};\n}",
-                "scriptSysId" : null,
-                "target" : null
+                "scriptSysId" : null
               }
             },
             "sysId" : "f49aa75023071010b1e3c50947bf65de"
           },
           "operation" : null,
           "targetId" : "clhheeiieeaaaaiicgddffhhraffihhtddccu",
+          "type" : "EVENT"
+        }, {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "sn_uxf.MACROPONENT_VIEWPORT_LOAD_REQUESTED",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "viewportElementId" : null,
+                "route" : null,
+                "fields" : null,
+                "params" : null
+              }
+            },
+            "sysId" : "f49aa75023071010b1e3c50947bf65de"
+          },
+          "operation" : null,
+          "targetId" : "clhhyjjeezovaaccbddddffhheewqjjddhtcee",
           "type" : "EVENT"
         } ]
       } ],
@@ -701,9 +704,7 @@
         "value" : null
       },
       "isHero" : false,
-      "extensionPoints" : [ ],
       "isNonDestructive" : false,
-      "items" : [ ],
       "styles" : { }
     } ],
     "layout" : {
@@ -725,9 +726,7 @@
     "value" : null
   },
   "isHero" : false,
-  "extensionPoints" : [ ],
   "isNonDestructive" : false,
-  "items" : [ ],
   "styles" : {
     "width" : "100%"
   }
@@ -764,9 +763,7 @@
     "value" : null
   },
   "isHero" : false,
-  "extensionPoints" : [ ],
   "isNonDestructive" : false,
-  "items" : [ ],
   "styles" : { }
 }, {
   "elementId" : "button_1",
@@ -809,7 +806,41 @@
       "container" : { }
     }
   },
-  "eventMappings" : [ ],
+  "eventMappings" : [ {
+    "eventMappingId" : "cliijlcchhtcaacccgddffhheezeeazzxkd",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_VIEWPORT_LOAD_REQUESTED",
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "viewportElementId" : null,
+            "route" : null,
+            "fields" : null,
+            "params" : null
+          }
+        },
+        "sysId" : "f49aa75023071010b1e3c50947bf65de"
+      },
+      "operation" : null,
+      "targetId" : "cliijlcchhtdaaccchddffhheecchwzqxfii",
+      "type" : "EVENT"
+    } ]
+  } ],
   "slot" : null,
   "definition" : {
     "id" : "d37ce8abca89d02905fed903c8e34d8e",
@@ -821,16 +852,12 @@
     "value" : null
   },
   "isHero" : false,
-  "extensionPoints" : [ ],
   "isNonDestructive" : false,
-  "items" : [ ],
   "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <description/>
         <dispatched_events>056f552a97651110870cf3ffe153af9a</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -851,7 +878,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>download</name>
-        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "Choose one:",
@@ -920,11 +946,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-29 02:40:13</sys_created_on>
         <sys_id>5e36a06297a11110870cf3ffe153af31</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>download</sys_name>
         <sys_package display_value="portalMock" source="x_866082_portalpro">de676b8e2f491510cc4e57892799b6b7</sys_package>
         <sys_policy/>
         <sys_scope display_value="portalMock">de676b8e2f491510cc4e57892799b6b7</sys_scope>
         <sys_update_name>sys_ux_macroponent_5e36a06297a11110870cf3ffe153af31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-27 03:43:04</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=5e36a06297a11110870cf3ffe153af31"/>
 </record_update>
